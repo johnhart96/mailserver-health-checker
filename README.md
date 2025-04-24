@@ -38,6 +38,6 @@ I wrote this to include an alert via SMS, for this I am using [BulkSMS](https://
 1. Clone this repo:
 
    ```bash
-   git clone https://github.com/yourusername/mail-server-monitor.git
+   git clone https://github.com/johnhart96/mail-server-monitor.git
    cd mail-server-monitor
    sudo bash install.sh
