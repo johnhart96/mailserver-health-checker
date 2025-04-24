@@ -6,6 +6,7 @@ curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php
 php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer
 rm /tmp/composer-setup.php
 composer install
+chmod +x health-check.php
 nano health-check.php
 
 # Add a cron job to run health-check.php every hour
